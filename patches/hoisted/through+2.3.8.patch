@@ -1,0 +1,12 @@
+diff --git a/node_modules/through/index.js b/node_modules/through/index.js
+index ca5fc59..5a248cc 100644
+--- a/node_modules/through/index.js
++++ b/node_modules/through/index.js
+@@ -18,6 +18,7 @@ function through (write, end, opts) {
+   var stream = new Stream()
+   stream.readable = stream.writable = true
+   stream.paused = false
++  stream._read = () => {}
+ 
+ //  stream.autoPause   = !(opts && opts.autoPause   === false)
+   stream.autoDestroy = !(opts && opts.autoDestroy === false)

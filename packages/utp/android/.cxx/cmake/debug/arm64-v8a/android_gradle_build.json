@@ -1,0 +1,43 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "utp-react-native-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/arm64-v8a",
+        "utp-react-native"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "utp-react-native",
+      "output": "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/build/intermediates/cmake/debug/obj/arm64-v8a/libutp-react-native.so",
+      "runtimeFiles": [
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/build/react-native-0.66.1.aar/jni/arm64-v8a/libreactnativejni.so",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/libuv/libuv-android-armv8-a/lib/libuv.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

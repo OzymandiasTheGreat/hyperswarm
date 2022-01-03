@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/.cxx/cmake/debug/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/.cxx/cmake/debug/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "sodium-react-native-Debug-x86_64": {
+      "artifactName": "sodium-react-native",
+      "buildCommandComponents": [
+        "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/.cxx/cmake/debug/x86_64",
+        "sodium-react-native"
+      ],
+      "abi": "x86_64",
+      "output": "/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/build/intermediates/cmake/debug/obj/x86_64/libsodium-react-native.so",
+      "runtimeFiles": [
+        "/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/build/react-native-0.66.1.aar/jni/x86_64/libreactnativejni.so",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/sodium/libsodium/libsodium-android-westmere/lib/libsodium.so"
+      ]
+    }
+  }
+}

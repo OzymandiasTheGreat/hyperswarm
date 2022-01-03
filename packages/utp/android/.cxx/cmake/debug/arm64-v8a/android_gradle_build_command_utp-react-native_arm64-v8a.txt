@@ -1,0 +1,7 @@
+Executable : /home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/arm64-v8a
+utp-react-native
+jvmArgs : 
+

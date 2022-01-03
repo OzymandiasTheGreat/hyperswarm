@@ -1,0 +1,3 @@
+/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/utp-react-native.dir

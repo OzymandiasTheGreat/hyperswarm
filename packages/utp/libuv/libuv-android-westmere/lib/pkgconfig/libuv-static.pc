@@ -1,0 +1,12 @@
+prefix=/home/ozymandias/Downloads/libuv-v1.42.0/build/westmere/libuv-android-westmere
+exec_prefix=${prefix}
+libdir=/home/ozymandias/Downloads/libuv-v1.42.0/build/westmere/libuv-android-westmere/lib
+includedir=/home/ozymandias/Downloads/libuv-v1.42.0/build/westmere/libuv-android-westmere/include
+
+Name: libuv-static
+Version: 1.42.0
+Description: multi-platform support library with a focus on asynchronous I/O.
+URL: http://libuv.org/
+
+Libs: -L${libdir} -luv_a -ldl
+Cflags: -I${includedir}

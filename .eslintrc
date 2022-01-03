@@ -1,0 +1,41 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*.d.ts"],
+  "overrides": [
+    {
+      "files": "**/*.+(ts|tsx)",
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint", "react-native", "prettier"],
+      "extends": [
+        "plugin:react/recommended",
+        "prettier",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+      ]
+    },
+    {
+      "files": "**/*.+(js|jsx)",
+      "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 2018
+      },
+      "plugins": ["prettier"],
+      "extends": ["eslint:recommended", "prettier"]
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": false,
+    "prettier/prettier": "error",
+    "quotes": ["error", "double"],
+    "indent": ["error", "tab"]
+  }
+}

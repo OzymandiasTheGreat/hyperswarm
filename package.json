@@ -1,0 +1,48 @@
+{
+  "name": "@ozymandiasthegreat/void",
+  "version": "0.1.0",
+  "description": "Hyperswarm and dependencies built for mobile (React-Native)",
+  "author": "Tomas Ravinskas <tomas.rav@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react",
+      "**/react-dom",
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-codegen",
+      "**/readable-stream"
+    ]
+  },
+  "scripts": {
+    "clean": "find ./packages -maxdepth 2 -type d -name node_modules | xargs rm -rf && rm -f yarn.lock && rm -rf node_modules",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "mobile:start": "REACT_EDITOR=echo yarn workspace @void/hyperswarm-mobile start",
+    "mobile:android": "yarn workspace @void/hyperswarm-mobile android",
+    "mobile:ios": "yarn workspace @void/hyperswarm-mobile ios",
+    "patch": "patch-package --patch-dir patches/hoisted --exclude nothing",
+    "postinstall": "patch-package --patch-dir patches/hoisted"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "readable-stream": "^3.6.0",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "react-native": "0.66.1",
+    "readable-stream": "3.6.0"
+  }
+}

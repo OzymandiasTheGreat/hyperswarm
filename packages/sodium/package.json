@@ -1,0 +1,45 @@
+{
+  "name": "@void/sodium-react-native",
+  "version": "0.1.0",
+  "description": "Drop-in replacement for sodium-native for React Native implemented as Turbo Module",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "libsodium",
+    "sodium-react-native.podspec",
+    "!lib/typescript/example",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "example": "yarn --cwd example",
+    "pods": "cd example && pod-install --quiet",
+    "bootstrap": "yarn example && yarn && yarn pods"
+  },
+  "keywords": [
+    "nacl",
+    "sodium",
+    "libsodium",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-native": "0.62.13",
+    "pod-install": "^0.1.0",
+    "react": "16.13.1",
+    "react-native": "0.66.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}

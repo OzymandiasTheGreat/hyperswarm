@@ -1,0 +1,16 @@
+# ninja log v5
+0	223	1641184005	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/libutp/utp_packedsockaddr.cpp.o	41b163893f2ea8f9
+1	452	1641184006	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/libutp/utp_api.cpp.o	b2febc332202d3d2
+2	488	1641184006	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/libutp/utp_hash.cpp.o	b6efa2b6e3aaef6
+1	498	1641184006	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/libutp/utp_callbacks.cpp.o	b423f745c397d9bf
+454	686	1641184006	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/libutp/utp_utils.cpp.o	69cbe2f7757b45b5
+3	856	1641184006	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/libutp/utp_internal.cpp.o	d1f47aa3190c60a7
+251	1167	1641184006	CMakeFiles/utp-react-native.dir/cpp-adapter.cpp.o	5b4e622430f27ecb
+0	1448	1641184007	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o	e5c1be71476369e4
+488	4820	1641184010	CMakeFiles/utp-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/utp/cpp/utp-react-native.cpp.o	d3402b8ed37e71aa
+4820	5020	1641184010	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libutp-react-native.so	33510f4633daea82
+3	362	1641184272	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libutp-react-native.so	33510f4633daea82
+1	296	1641184502	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libutp-react-native.so	33510f4633daea82
+3	328	1641184717	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libutp-react-native.so	33510f4633daea82
+1	231	1641185076	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libutp-react-native.so	33510f4633daea82
+2	253	1641185664	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libutp-react-native.so	33510f4633daea82

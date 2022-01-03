@@ -1,0 +1,3 @@
+/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/.cxx/cmake/debug/x86/CMakeFiles/sodium-react-native.dir

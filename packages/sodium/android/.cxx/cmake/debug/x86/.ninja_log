@@ -1,0 +1,10 @@
+# ninja log v5
+2	895	1641183941	CMakeFiles/sodium-react-native.dir/cpp-adapter.cpp.o	295dca16e2c026cb
+1	1364	1641183942	CMakeFiles/sodium-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/sodium/node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp.o	fedd2b2e72af4fc4
+2	27733	1641183968	CMakeFiles/sodium-react-native.dir/home/ozymandias/Projects/void/hyperswarm/packages/sodium/cpp/sodium-react-native.cpp.o	6a4b93e9d0501559
+27733	28078	1641183968	../../../../build/intermediates/cmake/debug/obj/x86/libsodium-react-native.so	baa1255b3656acb8
+2	550	1641184268	../../../../build/intermediates/cmake/debug/obj/x86/libsodium-react-native.so	baa1255b3656acb8
+3	467	1641184499	../../../../build/intermediates/cmake/debug/obj/x86/libsodium-react-native.so	baa1255b3656acb8
+1	428	1641184714	../../../../build/intermediates/cmake/debug/obj/x86/libsodium-react-native.so	baa1255b3656acb8
+1	425	1641185074	../../../../build/intermediates/cmake/debug/obj/x86/libsodium-react-native.so	baa1255b3656acb8
+1	304	1641185662	../../../../build/intermediates/cmake/debug/obj/x86/libsodium-react-native.so	baa1255b3656acb8

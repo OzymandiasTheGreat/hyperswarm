@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/armeabi-v7a'
+[1/1] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libutp-react-native.so

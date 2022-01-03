@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/ozymandias/Projects/void/hyperswarm/packages/sodium/android/.cxx/cmake/debug/arm64-v8a'
+[1/1] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsodium-react-native.so

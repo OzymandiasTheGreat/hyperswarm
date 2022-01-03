@@ -1,0 +1,35 @@
+diff --git a/node_modules/react-native-tcp/TcpSocket.js b/node_modules/react-native-tcp/TcpSocket.js
+index 59da564..78b9b38 100644
+--- a/node_modules/react-native-tcp/TcpSocket.js
++++ b/node_modules/react-native-tcp/TcpSocket.js
+@@ -70,9 +70,9 @@ util.inherits(TcpSocket, stream.Duplex);
+ 
+ TcpSocket.prototype._debug = function() {
+   if (__DEV__) {
+-    var args = [].slice.call(arguments);
+-    args.unshift('socket-' + this._id);
+-    console.log.apply(console, args);
++    // var args = [].slice.call(arguments);
++    // args.unshift('socket-' + this._id);
++    // console.log.apply(console, args);
+   }
+ };
+ 
+@@ -348,7 +348,7 @@ TcpSocket.prototype._onError = function(error: string): void {
+ };
+ 
+ TcpSocket.prototype.write = function(chunk, encoding, cb) {
+-  if (typeof chunk !== 'string' && !(Buffer.isBuffer(chunk))) {
++  if (typeof chunk !== 'string' && !(Buffer.isBuffer(chunk)) && !(chunk instanceof Uint8Array)) {
+     throw new TypeError(
+       'Invalid data, chunk must be a string or buffer, not ' + typeof chunk);
+   }
+@@ -372,6 +372,8 @@ TcpSocket.prototype._write = function(buffer: any, encoding: ?String, callback:
+     str = Base64Str.encode(buffer);
+   } else if (Buffer.isBuffer(buffer)) {
+     str = buffer.toString('base64');
++  } else if (buffer instanceof Uint8Array) {
++    str = Buffer.from(buffer).toString('base64');
+   } else {
+     throw new TypeError(
+       'Invalid data, chunk must be a string or buffer, not ' + typeof buffer);

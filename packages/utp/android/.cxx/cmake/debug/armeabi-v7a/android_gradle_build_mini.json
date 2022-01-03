@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "utp-react-native-Debug-armeabi-v7a": {
+      "artifactName": "utp-react-native",
+      "buildCommandComponents": [
+        "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/armeabi-v7a",
+        "utp-react-native"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/build/intermediates/cmake/debug/obj/armeabi-v7a/libutp-react-native.so",
+      "runtimeFiles": [
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/build/react-native-0.66.1.aar/jni/armeabi-v7a/libreactnativejni.so",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/libuv/libuv-android-armv7-a/lib/libuv.so"
+      ]
+    }
+  }
+}

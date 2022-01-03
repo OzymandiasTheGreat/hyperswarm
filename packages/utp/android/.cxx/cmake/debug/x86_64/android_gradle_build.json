@@ -1,0 +1,43 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "utp-react-native-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/home/ozymandias/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/.cxx/cmake/debug/x86_64",
+        "utp-react-native"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "utp-react-native",
+      "output": "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/build/intermediates/cmake/debug/obj/x86_64/libutp-react-native.so",
+      "runtimeFiles": [
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/android/build/react-native-0.66.1.aar/jni/x86_64/libreactnativejni.so",
+        "/home/ozymandias/Projects/void/hyperswarm/packages/utp/libuv/libuv-android-westmere/lib/libuv.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

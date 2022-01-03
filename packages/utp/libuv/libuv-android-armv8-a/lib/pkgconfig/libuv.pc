@@ -1,0 +1,12 @@
+prefix=/home/ozymandias/Downloads/libuv-v1.42.0/build/armv8a/libuv-android-armv8-a
+exec_prefix=${prefix}
+libdir=/home/ozymandias/Downloads/libuv-v1.42.0/build/armv8a/libuv-android-armv8-a/lib
+includedir=/home/ozymandias/Downloads/libuv-v1.42.0/build/armv8a/libuv-android-armv8-a/include
+
+Name: libuv
+Version: 1.42.0
+Description: multi-platform support library with a focus on asynchronous I/O.
+URL: http://libuv.org/
+
+Libs: -L${libdir} -luv -ldl
+Cflags: -I${includedir}
