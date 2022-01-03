@@ -156,6 +156,7 @@ UTP.prototype.close = function (onclose) {
 UTP.prototype._closeMaybe = function () {
   if (this._closing && !this.connections.length && !this._sending.length && this._inited && !this._closed) {
     this._closed = true
+    binding.utp_rn_close(this._handle)
   }
 }
 

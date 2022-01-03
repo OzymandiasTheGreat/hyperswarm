@@ -42,6 +42,7 @@ tape('echo socket', function (t) {
 
   socket.bind(function () {
     var other = dgram.createSocket('udp4')
+    other.bind()
     other.on('message', function (buf, rinfo) {
       t.same(rinfo.port, socket.address().port)
       t.same(rinfo.address, '127.0.0.1')
@@ -63,6 +64,7 @@ tape('echo socket with resolve', function (t) {
 
   socket.bind(function () {
     const other = dgram.createSocket('udp4')
+	other.bind()
     other.on('message', function (buf, rinfo) {
       t.same(rinfo.port, socket.address().port)
       t.same(rinfo.address, '127.0.0.1')
